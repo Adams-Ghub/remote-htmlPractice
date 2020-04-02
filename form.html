@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+	<style type="text/css">
+		h3{
+			font-family: Arial;
+			font-size: 32px;
+			color: purple;
+		}
+		label{
+			font-family: Arial;
+			font-weight: bolder;
+			color: red;
+			margin-bottom: 5%;
+			font-size: 24px;
+		}
+
+		div{
+			margin-bottom: 2%;
+		}
+
+		input.box{
+			border-radius: 5%;
+			width: 300px;
+			height: 20px;
+
+		}
+		input#button{
+			color: orange;
+			background-color: blue;
+			width: 90px;
+			height: 25px;
+			font-size: 18px;
+			font-weight: bold;
+			border-radius: 4%;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<h3>Personal Details</h3>
+		<div class="firstname">
+			<label>Firstname</label>
+			<input class="box" type="text" name=""><br>
+		</div>
+
+		<div class="lastname">
+			<label>Lastname</label>
+			<input class="box" type="text" name=""><br>
+		</div>
+
+		<div class="email">
+			<label>Email</label>
+			<input class="box" type="Email" name=""><br>
+		</div>
+
+		<div class="phone">
+			<label>Phone</label>
+			<input class="box" type="Phone" name=""><br>
+		</div>
+
+		<div class="gender">
+			<label>Gender</label><br>
+			<input type="radio" name="gender" value="male"><label>Male</label>
+			<input type="radio" name="gender" value="female"><label>Female</label>
+			<input type="radio" name="gender" value="other"><label>Other</label><br>
+		</div>
+
+		<input id="button" type="submit" name="">
+
+
+	</form>
+	
+</body>
+</html>
